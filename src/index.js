@@ -1,7 +1,7 @@
 import Phaser from "phaser";
-import Game from "./scenes/game";
+import Main from "./scenes/main";
 
-const config = {
+const game = new Phaser.Game({
   type: Phaser.AUTO,
   parent: 'game',
   backgroundColor: 'black',
@@ -16,8 +16,9 @@ const config = {
     arcade: {
       gravity: { y: 200 }
     }
-  },
-  scene: new Game()
-}
+  }
+});
 
-new Phaser.Game(config)
+game.scene.add('main', Main);
+
+game.scene.start('main');
