@@ -1,7 +1,7 @@
-export default class GameScene extends Phaser.Scene {
+export default class Game extends Phaser.Scene {
 
   constructor() {
-    super('Game Scene')
+    super('Game')
   }
 
   init() {
