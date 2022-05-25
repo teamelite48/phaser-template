@@ -23,5 +23,23 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 
 <img src="demo-screenshot.png" height="256" />
 
-## Resources
+## Project Structure
+```
+└── src
+    ├── assets      # images and sounds
+    ├── scenes      # your game code goes here
+    ├── index.js    # game configuration and starting point
+    └── index.html  # web page that wraps the game
+```
+
+## Tools
 - [Visual Studio Code](https://code.visualstudio.com/) - recommended code editor
+- [Tiled](https://www.mapeditor.org/) - fully featured level editor
+## Learning Resources
+- [Learn JavaScript](https://www.sololearn.com/learning/1024) - freemium
+- [Minimalist Games and Tutorials](https://www.lessmilk.com/)
+- [Make 2D Games in JavaScript with Phaser](https://thomaspalef.gumroad.com/l/make-2d-games) - paid book
+- [HTML5 Game Development Mini-Degree](https://academy.zenva.com/product/html5-game-phaser-mini-degree/) - paid videos
+- [Phaser Learning Pages](https://phaser.io/learn)
+- [Phaser Examples](https://phaser.io/examples/v3)
+- [Phaser API Docs](https://newdocs.phaser.io/docs/3.55.2)
