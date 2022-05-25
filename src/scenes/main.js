@@ -1,9 +1,5 @@
 export default class Main extends Phaser.Scene {
 
-  init() {
-
-  }
-
   preload() {
     this.load.image('sky', 'assets/space3.png');
     this.load.image('logo', 'assets/phaser3-logo.png');
