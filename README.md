@@ -1,14 +1,14 @@
 # Phaser 3 JavaScript Template
 
+A simple template for a Phaser 3 game project.
+
 ## What is Phaser?
 
 <img src="phaser.png" height="256"/>
 
 Phaser is an HTML5 game framework which aims to help developers make powerful, cross-browser HTML5 games really quickly. It was created specifically to harness the benefits of modern browsers, both desktop and mobile. The only browser requirement is the support of the canvas tag.
 
-- [Learn more](https://phaser.io)
-- [Make your first game](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1)
-
+[Phaser Homepage](https://phaser.io)
 
 ## Getting Started
 
@@ -17,15 +17,46 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 1. Open the project directory from a terminal
 1. Run `npm install`
 1. Run `npm start`
-1. Go to http://localhost:1234
+1. Open http://localhost:1234
 1. You should see the Phaser 3 logo bouncing around your web browser.
+    <p><img src="demo-screenshot.png" height="256" /></p>
+1. Congratulations you have a working Phaser 3 game development environment!
 
-<img src="demo-screenshot.png" height="256" />
+## Make Your First Game
+
+This project includes everything you need to complete the tutorial bellow, there is no need to download additional files.
+
+1. Open the folder containing this project in a code editor
+    - I highly recommend [Visual Studio Code](https://code.visualstudio.com/)
+1. Replace the code in `src/scenes/main.js` with the snippet bellow:
+    ```
+    import Phaser from "phaser";
+
+    export default class Main extends Phaser.Scene {
+
+      preload() {
+        // your preload code from the tutorial will go here
+      }
+
+      create() {
+        // your create code from the tutorial will go here
+      }
+
+      update() {
+        // your update code from the tutorial will here
+      }
+    }
+    ```
+1. If the development server is already running, skip this step. Otherwise, start the development server by running `npm start` from a terminal in the project directory.
+1. Open http://localhost:1234
+1. Follow the [Make your first Phaser 3 game](https://phaser.io/tutorials/making-your-first-phaser-3-game/part2) tutorial
+1. Congratulations you made your first Phaser game!
 
 ## Terminal Commands
 
-- `npm start` - builds the game and serves it from http://localhost:1234. Whenever a game file changes, the browser used to open the localhost url will automatically refresh.
+- `npm start` - builds the game and serves it from http://localhost:1234 for local development. Whenever a game file changes, the browser used to open the localhost url will automatically refresh.
 - `npm run build` - builds the final game for distribution. The files will be located in the `dist` folder and can be hosted on a web server.
+- `ctrl + c` - stops the development server.
 
 ## Project Structure
 ```
@@ -33,7 +64,7 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
     ├── assets          # images and sounds
     ├── scenes          # game scenes
     │   └── main.js     # your game code goes here
-    ├── index.js        # configuration and starting point
+    ├── index.js        # configuration and game initilization
     └── index.html      # web page that wraps the game
 ```
 
@@ -43,7 +74,6 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 
 ## Learning Resources
 - [Learn JavaScript](https://www.sololearn.com/learning/1024) - freemium
-- [Make your first game](https://phaser.io/tutorials/making-your-first-phaser-3-game/part1)
 - [Minimalist Games and Tutorials](https://www.lessmilk.com/)
 - [Make 2D Games in JavaScript with Phaser](https://thomaspalef.gumroad.com/l/make-2d-games) - paid book
 - [HTML5 Game Development Mini-Degree](https://academy.zenva.com/product/html5-game-phaser-mini-degree/) - paid videos
