@@ -49,4 +49,4 @@ create() {
 
 If you put the `star` image first it will be covered-up by the sky image.
 
-[Back](part1.md) | [Next](part1.md)
+[Back](part-1.md) | [Next](part-3.md)

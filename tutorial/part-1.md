@@ -50,4 +50,30 @@ The `width` and `height` properties set the size of the canvas element that Phas
 
 The `scene` property of the configuration object will be covered in more detail further on in this tutorial.
 
-[Back](./introduction.md) | [Next](./part2.md)
+[Back](index.md) | [Next](part-2.md)
+
+TODO
+
+Glancing quickly at the code you'll see a call to `this.physics`. This means we're using the Arcade Physics system, but before we can do that we need to add it to our Game Config to tell Phaser our game requires it. So let's update that to include physics support. Here is the revised game config:
+
+```
+var config = {
+    type: Phaser.AUTO,
+    width: 800,
+    height: 600,
+    physics: {
+        default: 'arcade',
+        arcade: {
+            gravity: { y: 300 },
+            debug: false
+        }
+    },
+    scene: {
+        preload: preload,
+        create: create,
+        update: update
+    }
+};
+```
+
+The new addition is the `physics` property. With this code in place if you run it, which you'll find as `part4.html` in the tutorial zip file, you should see a much more game-like scene:
