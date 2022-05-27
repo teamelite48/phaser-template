@@ -1,5 +1,7 @@
 # Part 2 - Loading Assets
 
+[Example Code](example-code/part-2.js)
+
 Let's load the assets we need for our game. You do this by putting calls to the Phaser Loader inside of a Scene method called `preload`. Phaser will automatically look for this method when it starts and load anything defined within it.
 
 Currently the preload method is empty. Change it to:
@@ -32,7 +34,7 @@ create() {
 
 You should now see a game screen with a blue sky backdrop covering it:
 
-![](https://phaser.io/content/tutorials/making-your-first-phaser-3-game/part3.png)
+![](images/part3.png)
 
 The values `400` and `300` are the x and y coordinates of the image. Why 400 and 300? It's because in Phaser 3 all Game Objects are positioned based on their center by default. The background image is 800 x 600 pixels in size, so if we were to display it centered at 0 x 0 you'd only see the bottom-right corner of it. If we display it at 400 x 300 you see the whole thing.
 

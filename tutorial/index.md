@@ -13,5 +13,7 @@
 - [Part 8 - Collecting Stars](part-8.md)
 - [Part 9 - Scores and Scoring](part-9.md)
 - [Part 10 - Bouncing Bombs](part-10.md)
+- [Part 11 - High Score](part-11.md)
+- [Part 12 - Camera Effects](part-12.md)
 
 [Back](../README.md) | [Next](part-1.md)

@@ -1,5 +1,7 @@
 # Part 4 - The Platforms
 
+[Example Code](example-code/part-4.js)
+
 We just added a bunch of code to our `create` method that deserves a more detailed explanation. First, this part:
 
 ```
@@ -44,4 +46,4 @@ The process is exactly the same as before, only we don't need to scale these pla
 
 So let's add our player.
 
-[Back](part-3.md) | [Next](part-4.md)
+[Back](part-3.md) | [Next](part-5.md)

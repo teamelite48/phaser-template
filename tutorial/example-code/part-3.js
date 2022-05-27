@@ -29,6 +29,6 @@ export default class Main extends Phaser.Scene {
   }
 
   update() {
-    // your update code from the tutorial will here
+
   }
 }

@@ -24,29 +24,8 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 
 ## Make Your First Game
 
-This project includes everything you need to complete the tutorial bellow, there is no need to download additional files.
-
 1. Open the folder containing this project in a code editor
     - I highly recommend [Visual Studio Code](https://code.visualstudio.com/)
-1. Replace the code in `src/scenes/main.js` with the snippet bellow:
-    ```
-    import Phaser from "phaser";
-
-    export default class Main extends Phaser.Scene {
-
-      preload() {
-        // your preload code from the tutorial will go here
-      }
-
-      create() {
-        // your create code from the tutorial will go here
-      }
-
-      update() {
-        // your update code from the tutorial will here
-      }
-    }
-    ```
 1. If the development server is already running, skip this step. Otherwise, start the development server by running `npm start` from a terminal in the project directory.
 1. Open http://localhost:1234
 1. Follow the [Make Your First Phaser 3 Game](./tutorial/index.md) tutorial

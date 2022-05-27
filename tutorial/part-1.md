@@ -1,17 +1,40 @@
 # Part 1 - Introduction
 
-![](https://phaser.io/content/tutorials/making-your-first-phaser-3-game/tutorial_header.png)
+[Example Code](example-code/part-1.js)
+
+![](images/tutorial_header.png)
 
 Welcome to our first tutorial on Making a Game with Phaser 3. Here we will learn how to create a small game involving a player running and jumping around platforms, collecting stars and avoiding baddies. While going through this process we'll explain some of the core features of the framework.
 
 ## What is Phaser?
 Phaser is an HTML5 game framework which aims to help developers make powerful, cross-browser HTML5 games really quickly. It was created specifically to harness the benefits of modern browsers, both desktop and mobile. The only browser requirement is the support of the canvas tag.
 
-## Requirements
+## Example Code
+There is an [Example Code](example-code/part-1.js) link at the top of every page that shows what your code should look like at the end of each part.
 
-You need to have a very, very basic knowledge of JavaScript.
+## Let's Go!
+All of your code will go in `src/scenes/main.js`. Let's start by replacing the code in `src/scenes/main.js` with the snippet bellow:
 
-Open `src/index.js` in your editor of choice and let's have a closer look at the code. The code structure looks like this:
+```
+import Phaser from "phaser";
+
+export default class Main extends Phaser.Scene {
+
+  preload() {
+
+  }
+
+  create() {
+
+  }
+
+  update() {
+
+  }
+}
+```
+
+Let's take a look at the game configuration in `src/index.js` to better understand what's going on. It looks like this:
 
 ```
 import Phaser from "phaser";
@@ -48,32 +71,7 @@ The `type` property can be either `Phaser.CANVAS`, `Phaser.WEBGL`, or `Phaser.AU
 
 The `width` and `height` properties set the size of the canvas element that Phaser will create. In this case 800 x 600 pixels. Your game world can be any size you like, but this is the resolution the game will display in.
 
-The `scene` property of the configuration object will be covered in more detail further on in this tutorial.
+The `physics` property adds Arcade Physics to our game.
 
 [Back](index.md) | [Next](part-2.md)
-
-TODO
-
-Glancing quickly at the code you'll see a call to `this.physics`. This means we're using the Arcade Physics system, but before we can do that we need to add it to our Game Config to tell Phaser our game requires it. So let's update that to include physics support. Here is the revised game config:
-
 ```
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    physics: {
-        default: 'arcade',
-        arcade: {
-            gravity: { y: 300 },
-            debug: false
-        }
-    },
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
-};
-```
-
-The new addition is the `physics` property. With this code in place if you run it, which you'll find as `part4.html` in the tutorial zip file, you should see a much more game-like scene:
