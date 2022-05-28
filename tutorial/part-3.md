@@ -1,6 +1,6 @@
 # Part 3 - World Building
 
-[Example Code](example-code/part-3.js) for `src/scenes/main.js`
+[Example Code](example-code/part-3.js)
 
 Under the hood `this.add.image` is creating a new Image Game Object and adding it to the current Scenes display list. This list is where all of your Game Objects live. You could position the image anywhere and Phaser will not mind. Of course, if it's outside of the region 0x0 to 800x600 then you're not going to visually see it, because it'll be "off screen", but it will still exist within the Scene.
 
