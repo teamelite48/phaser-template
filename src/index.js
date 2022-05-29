@@ -1,5 +1,5 @@
-import Phaser from "phaser";
-import Main from "./scenes/main";
+import Phaser from 'phaser';
+import Main from './scenes/main';
 
 const game = new Phaser.Game({
   type: Phaser.AUTO,
@@ -11,7 +11,7 @@ const game = new Phaser.Game({
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH
   },
-  physics : {
+  physics: {
     default: 'arcade',
     arcade: {
       gravity: { y: 300 }

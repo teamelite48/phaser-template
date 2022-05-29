@@ -1,4 +1,4 @@
-import Phaser from "phaser";
+import Phaser from 'phaser';
 
 export default class Main extends Phaser.Scene {
 
@@ -46,7 +46,7 @@ export default class Main extends Phaser.Scene {
 
     this.anims.create({
       key: 'turn',
-      frames: [ { key: 'dude', frame: 4 } ],
+      frames: [{ key: 'dude', frame: 4 }],
       frameRate: 20
     });
 
