@@ -25,7 +25,7 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 ## Make Your First Game
 1. If the development server is already running, skip this step. Otherwise, start the development server by running `npm start` from a terminal in the project directory.
 1. Open http://localhost:1234
-1. Follow the [Make Your First Phaser 3 Game](./tutorial/index.md) tutorial
+1. Follow the [Make Your First Phaser 3 Game](./tutorial/README.md) tutorial
 1. Congratulations you made your first Phaser game!
 
 ## Terminal Commands

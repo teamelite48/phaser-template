@@ -82,4 +82,4 @@ An instance of a Phaser.Game object is created with the configuration and assign
 
 The `Main` scene is then added to the game object and the game is started. This will bring Phaser to life.
 
-[Back](index.md) | [Next](part-2.md)
+[Back](README.md) | [Next](part-2.md)
