@@ -60,7 +60,7 @@ The end result is a nice little bomb sprite that rebounds around the screen. Sma
 
 ![](images/part10.png)
 
-And our game is done :)
+And our game is done 🎉
 
 ## Conclusion
 

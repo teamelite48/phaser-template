@@ -1,4 +1,4 @@
-# Part 7 - Controlling the player with the keyboard
+# Part 7 - Controlling the Player with the Keyboard
 
 [Example Code](example-code/part-7.js)
 

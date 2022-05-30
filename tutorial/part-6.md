@@ -1,4 +1,4 @@
-# Part 6 - Body Velocity: A world of physics
+# Part 6 - Body Velocity: A World of Physics
 
 [Example Code](example-code/part-6.js)
 

@@ -1,5 +1,5 @@
 
-# Part 9 - A score to settle
+# Part 9 - A Score to Settle
 
 [Example Code](example-code/part-9.js)
 
