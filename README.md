@@ -1,6 +1,4 @@
-# Phaser 3 JavaScript Template
-
-A Phaser 3 game project template.
+# Phaser 3 Project Template
 
 ## What is Phaser?
 
