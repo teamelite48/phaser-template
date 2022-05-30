@@ -35,8 +35,6 @@ export default class Main extends Phaser.Scene {
     this.player.setBounce(0.2);
     this.player.setCollideWorldBounds(true);
 
-    this.physics.add.collider(this.player, this.platforms);
-
     this.anims.create({
       key: 'left',
       frames: this.anims.generateFrameNumbers('dude', { start: 0, end: 3 }),
@@ -56,6 +54,8 @@ export default class Main extends Phaser.Scene {
       frameRate: 10,
       repeat: -1
     });
+
+    this.physics.add.collider(this.player, this.platforms);
 
     this.cursors = this.input.keyboard.createCursorKeys();
 
