@@ -2,9 +2,9 @@ import Phaser from 'phaser';
 
 export default class Main extends Phaser.Scene {
 
-  cursors;
   platforms;
   player;
+  cursors;
 
   preload() {
     this.load.image('sky', 'assets/sky.png');
@@ -19,8 +19,6 @@ export default class Main extends Phaser.Scene {
   }
 
   create() {
-    this.cursors = this.input.keyboard.createCursorKeys();
-
     this.add.image(400, 300, 'sky');
 
     this.platforms = this.physics.add.staticGroup();
@@ -35,8 +33,6 @@ export default class Main extends Phaser.Scene {
 
     this.player.setBounce(0.2);
     this.player.setCollideWorldBounds(true);
-
-    this.player.body.setGravityY(300);
 
     this.physics.add.collider(this.player, this.platforms);
 
@@ -59,6 +55,8 @@ export default class Main extends Phaser.Scene {
       frameRate: 10,
       repeat: -1
     });
+
+    this.cursors = this.input.keyboard.createCursorKeys();
   }
 
   update() {

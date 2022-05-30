@@ -33,8 +33,6 @@ export default class Main extends Phaser.Scene {
     this.player.setBounce(0.2);
     this.player.setCollideWorldBounds(true);
 
-    this.player.body.setGravityY(300);
-
     this.physics.add.collider(this.player, this.platforms);
 
     this.anims.create({
