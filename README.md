@@ -32,7 +32,8 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 
 - `npm start` - builds the game and serves it from http://localhost:1234 for local development. Whenever a game file changes, the browser used to open the localhost url will automatically refresh.
 - `npm run build` - builds the final game for distribution. The files will be located in the `dist` folder and can be hosted on a web server.
-- `ctrl + c` - stops the development server.
+- `npm run lint` - runs a JavaScript linter against the source code to check syntax, find problems, and enforce code style.
+- `ctrl + c` - stops any currently running program.
 
 ## Project Structure
 ```
