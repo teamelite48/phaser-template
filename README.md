@@ -3,6 +3,7 @@
 A Phaser 3 project template for JavaScript.
 
 ## Table of Contents
+
 1. [What is Phaser?](#what-is-phaser)
 1. [Getting Started](#getting-started)
 1. [Make Your First Game](#make-your-first-game)
@@ -32,6 +33,7 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 1. Congratulations you have a working Phaser 3 game development environment!
 
 ## Make Your First Game
+
 1. If the development server is already running, skip this step. Otherwise, start the development server by running `npm start` from a terminal in the project directory.
 1. Open http://localhost:1234
 1. Follow the [Make Your First Phaser 3 Game](./tutorial/README.md) tutorial
@@ -45,6 +47,7 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 - `ctrl + c` - stops any currently running program.
 
 ## Project Structure
+
 ```
 └── src
     ├── assets          # images and sounds
@@ -55,10 +58,12 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 ```
 
 ## Additional Tools
+
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
 - [Tiled](https://www.mapeditor.org/) - fully featured level editor
 
 ## Learning Resources
+
 - [Learn JavaScript](https://www.sololearn.com/learning/1024) - freemium
 - [Minimalist Games and Tutorials](https://www.lessmilk.com/)
 - [Make 2D Games in JavaScript with Phaser](https://thomaspalef.gumroad.com/l/make-2d-games) - paid book
