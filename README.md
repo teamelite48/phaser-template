@@ -1,5 +1,16 @@
 # Phaser 3 Project Template
 
+A Phaser 3 project template for JavaScript.
+
+## Table of Contents
+1. [What is Phaser?](#what-is-phaser)
+1. [Getting Started](#getting-started)
+1. [Make Your First Game](#make-your-first-game)
+1. [Terminal Commands](#terminal-commands)
+1. [Project Structure](#project-structure)
+1. [Additional Tools](#additional-tools)
+1. [Learning Resources](#learning-resources)
+
 ## What is Phaser?
 
 <img src="phaser.png" height="256"/>
@@ -28,9 +39,9 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 
 ## Terminal Commands
 
-- `npm start` - builds the game and serves it from http://localhost:1234 for local development. Whenever a game file changes, the browser used to open the localhost url will automatically refresh.
+- `npm start` - builds the game for local development and serves it at http://localhost:1234. The browser used to open the url will automatically refresh whenever a file in the `src` folder is saved.
 - `npm run build` - builds the final game for distribution. The files will be located in the `dist` folder and can be hosted on a web server.
-- `npm run lint` - runs a JavaScript linter against the source code to check syntax, find problems, and enforce code style.
+- `npm run lint` - checks the game code for correct syntax, finds problems, and enforces code style.
 - `ctrl + c` - stops any currently running program.
 
 ## Project Structure
@@ -43,7 +54,7 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
     └── index.html      # web page that wraps the game
 ```
 
-## Tools
+## Additional Tools
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
 - [Tiled](https://www.mapeditor.org/) - fully featured level editor
 
