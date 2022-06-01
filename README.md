@@ -52,8 +52,8 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 └── src
     ├── assets          # images and sounds
     ├── scenes          # game scenes
-    │   └── main.js     # your game code goes here
-    ├── index.js        # configuration and game initilization
+    │   └── play.js     # your game code goes here
+    ├── game.js         # configuration and game initilization
     └── index.html      # web page that wraps the game
 ```
 

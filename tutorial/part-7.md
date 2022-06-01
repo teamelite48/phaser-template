@@ -4,7 +4,7 @@
 
 Colliding is all good and well, but we really need the player to move. Phaser has a built-in Keyboard manager and one of the benefits of using that is the `createCursorKeys()` method.
 
-Add a `cursors` property to the `Main` scene class and assign it the value of `createCursorKeys()` in the `create` method:
+Add a `cursors` property to the `Play` scene class and assign it the value of `createCursorKeys()` in the `create` method:
 
 ```
 this.cursors = this.input.keyboard.createCursorKeys();

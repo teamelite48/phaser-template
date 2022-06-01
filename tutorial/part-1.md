@@ -18,12 +18,12 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 There is an [Example Code](example-code/part-1.js) link at the top of every page that shows you what your code should look like at the end of each part.
 
 ## Let's Go!
-All of your code will go in `src/scenes/main.js`. Let's start by replacing the code in `src/scenes/main.js` with the snippet bellow:
+All of your code will go in `src/scenes/play.js`. Let's start by replacing the code in `src/scenes/play.js` with the snippet bellow:
 
 ```
 import Phaser from "phaser";
 
-export default class Main extends Phaser.Scene {
+export default class Play extends Phaser.Scene {
 
   preload() {
 
@@ -39,11 +39,11 @@ export default class Main extends Phaser.Scene {
 }
 ```
 
-Let's take a look at the game configuration in `src/index.js` to better understand what's going on. It looks like this:
+Let's take a look at the game configuration in `src/game.js` to better understand what's going on. It looks like this:
 
 ```
 import Phaser from 'phaser';
-import Main from './scenes/main';
+import Play from './scenes/play';
 
 const game = new Phaser.Game({
   type: Phaser.AUTO,
@@ -63,9 +63,9 @@ const game = new Phaser.Game({
   }
 });
 
-game.scene.add('main', Main);
+game.scene.add('play', Play);
 
-game.scene.start('main');
+game.scene.start('play');
 ```
 
 The config object is how you configure your Phaser Game. There are lots of options that can be placed in this object and as you expand on your Phaser knowledge you'll encounter more of them.
@@ -80,6 +80,6 @@ The `physics` property adds Arcade Physics to our game.
 
 An instance of a Phaser.Game object is created with the configuration and assigned to a local variable named `game`.
 
-The `Main` scene is then added to the game object and the game is started. This will bring Phaser to life.
+The `Play` scene is then added to the game object and the game is started. This will bring Phaser to life.
 
 [Back](README.md) | [Next](part-2.md)

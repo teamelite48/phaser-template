@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import Main from './scenes/main';
+import Play from './scenes/play';
 
 const game = new Phaser.Game({
   type: Phaser.AUTO,
@@ -19,6 +19,6 @@ const game = new Phaser.Game({
   }
 });
 
-game.scene.add('main', Main);
+game.scene.add('play', Play);
 
-game.scene.start('main');
+game.scene.start('play');
