@@ -16,6 +16,6 @@
 
 ## Credit to the Author
 
-All credit for this tutorial goes to Richard Davey, the original can be found here: https://phaser.io/tutorials/making-your-first-phaser-3-game. The original tutorial has been modified to align with the ES6 Class structure adhered to in this project. The sole purpose of this modified tutorial is for educational use in a Summer coding camp for high school students.
+All credit for this tutorial goes to Richard Davey, the original can be found at https://phaser.io/tutorials/making-your-first-phaser-3-game. The original tutorial has been modified to align with the ES6 Class structure adhered to in this project. The sole purpose of this modified tutorial is for educational use in a Summer coding camp for high school students.
 
 [Back](../README.md) | [Next](part-1.md)
