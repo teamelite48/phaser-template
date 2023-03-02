@@ -22,10 +22,10 @@ Phaser is an HTML5 game framework which aims to help developers make powerful, c
 
 ## Getting Started
 
-1. Install Node.js 16.15.0 LTS from https://nodejs.org
+1. Install Node.js 18.14.2 LTS from https://nodejs.org
 1. Download or clone this project
 1. Open the project directory from a terminal
-1. Run `npm install`
+1. Run `npm clean-install`
 1. Run `npm start`
 1. Open http://localhost:1234
 1. You should see the Phaser 3 logo bouncing around your web browser.
