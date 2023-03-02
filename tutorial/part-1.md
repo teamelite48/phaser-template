@@ -23,7 +23,7 @@ All of your code will go in `src/scenes/play.js`. Let's start by replacing the c
 ```
 import Phaser from "phaser";
 
-export default class Play extends Phaser.Scene {
+export class Play extends Phaser.Scene {
 
   preload() {
 

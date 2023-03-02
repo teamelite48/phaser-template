@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 
-export default class Play extends Phaser.Scene {
+export class Play extends Phaser.Scene {
 
   preload() {
     this.load.image('sky', 'assets/sky.png');
