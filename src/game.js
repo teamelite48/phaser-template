@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import Play from './scenes/play';
+import { Play } from './scenes/play';
 
 const game = new Phaser.Game({
   type: Phaser.AUTO,
